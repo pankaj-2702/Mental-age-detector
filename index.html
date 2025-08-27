@@ -3,27 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ment</title>
+    <title>Mental age detector</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image.png" href="brain.png">
 </head>
 <body>
-    <div class="nvaBar">
-        <h1>MENTAL AGE DETECTOR</h1>
+    <div class="navBar">
+        <h1>MENTAL  AGE DETECTOR</h1>
     </div>
     <div class="home">
-        <div class="name">
+        <form>
+            <div class="name">
             <p>What's Your Name</p>
-            <input type="text">
+            <input class="name1" type="text" placeholder="" required>
         </div>
         <div class="gender">
             <p>What's Your Gender ?</p>
             <div class="check-boxes">
-                <label for="male">Male</label>
-                <input class="check-boxe" id="male" type="radio" name="gender">
+               <div class="option1"> <label for="male">Male</label>
+                <input class="check-boxe" id="male" type="radio" name="gender" required>
+            </div>
+               <div class="option1">
                  <label for="female">Female</label>
-                <input class="check-boxe" id="female" type="radio" name="gender">
+                <input class="check-boxe" id="female" type="radio" name="gender" required>
+               </div> 
+               
+            </div>
+            
+        </div>
+        <div class="question">
+            <p>What are you pretending to study ?</p>
+            <div class="options">
+                <button class="btn">Engineering</button>
+                <button class="btn">Medicine</button>
+                <button class="btn">Arts</button>
+                <button class="btn">Other</button>
             </div>
         </div>
+     
+        <div class="questions" id="one">
+            <p>How do you spend most of your day?</p>
+            <ul>
+                <li> Scrolling reels for “just 5 minutes”</li>
+                <li>Sleeping after pretending to study</li>
+                <li>In the mess line, calculating if it's worth it</li>
+                <li>Crying in DMs and pretending it's allergies</li>
+            </ul>
+        </div>
+          <div class="questions" id="two">
+            <p> What’s your top priority right now?</p>
+            <ul>
+                <li> Bunking lectures 💤</li>
+                <li>Placement prep 🧑‍💻</li>
+                <li>Flirting in the library 😏</li>
+                <li>Surviving mid-sem results ☠️</li>
+            </ul>
+        </div>
+          <div class="questions" id="three">
+            <p> What’s your toxic college trait?</p>
+            <ul>
+                <li>Starting assignments 5 minutes before deadline</li>
+                <li>Group project ghost 🧍</li>
+                <li>Rewatching the same web series again and again</li>
+                <li>Giving "yaar kal se padhenge" motivation speeches</li>
+            </ul>
+        </div>
+          <div class="questions" id="four">
+            <p>Your crush passes by. What do you do?</p>
+            <ul>
+                <li> Fix hair and pretend you didn’t see</li>
+                <li>Panic. Walk into a wall</li>
+                <li>Stare for 3 seconds. Write a sad poem later.</li>
+                <li>Nothing. I already gave up.</li>
+            </ul>
+        </div>
+        <a src="#" class="submit">Analyse my age</a>
+        </form>
     </div>
+    <div class="result">
+        <div class="loader"></div>
+        <div class="image"></div>
+        <div class="message">
+            <p>🔦 Looking into your soul... it’s dusty.</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="second.js"></script>
 </body>
 </html>
