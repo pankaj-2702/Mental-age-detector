@@ -220,6 +220,7 @@
     /* justify-content: space-evenly; */
     align-items: center;
     /* min-height: 70vh; */
+       max-width:90%;
    }
    .name{
      font-size: 2rem;
@@ -381,3 +382,4 @@
     80%{background-position:0%  50%, 50%  50%,100% 100%}
 }
 }
+
