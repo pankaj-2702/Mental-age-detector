@@ -69,7 +69,7 @@ const list=document.querySelectorAll("li");
      console.log(id);
      if(id==="male"){
          let random1 = Math.floor(Math.random() * 4);
-         message.innerText=femaleMsg[random1];
+         message.innerText=maleMsg[random1];
      }else if(id==="female"){
         let random2 = Math.floor(Math.random() * 6);
          message.innerText=femaleMsg[random2];
@@ -84,3 +84,4 @@ const list=document.querySelectorAll("li");
   message.innerText="📡 Connecting to NASA satellites..."
   result.remove();
  })
+
