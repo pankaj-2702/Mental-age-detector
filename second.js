@@ -36,7 +36,7 @@ const femaleMsg =[
 "Your maturity level is high… but you’re still cute enough to make anyone nervous."
 ]
 
-const boysMsg =[
+const maleMsg =[
     "You act like you’ve figured life out… then you trip over your own charger wire 😏",
 
 "Your maturity is CEO-level, but your crush-handling skills are still LKG standard.",
@@ -45,3 +45,4 @@ const boysMsg =[
 
 "You look like a man, but mentally you’re still negotiating with your mom for 5 more minutes of WiFi."
 ]
+
